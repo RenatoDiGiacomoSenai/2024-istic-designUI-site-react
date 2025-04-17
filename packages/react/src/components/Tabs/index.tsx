@@ -40,7 +40,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs, grow = true, value, onChange }) => {
   });
 
   const inactiveTabClasses = clsx({
-    ['text-neutral-600']: true,
+    ['text-neutral-600 border-b-2 border-black']: true,
   });
 
   const handleTabClick = (tabId: string) => {
